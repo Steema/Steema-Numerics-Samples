@@ -36,13 +36,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="1.5.2" />
     <PackageReference Include="Microsoft.ML.TimeSeries" Version="1.5.2" />
+    <PackageReference Include="Steema.Numerics" Version="1.2020.11.30" />
+    <PackageReference Include="Steema.Numerics.Windows" Version="1.2020.11.30" />
+    <PackageReference Include="Steema.Numerics.Windows.TeeChart" Version="1.2020.11.30" />
     <PackageReference Include="Steema.TeeChart.NETCore.WinForm" Version="4.2020.11.25" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Steema.Numerics.ChartHelper\Steema.Numerics.ChartHelper.csproj" />
-    <ProjectReference Include="..\Steema.Numerics.Windows\Steema.Numerics.Windows.csproj" />
-    <ProjectReference Include="..\Steema.Numerics\Steema.Numerics.csproj" />
   </ItemGroup>
 
   <ItemGroup>
