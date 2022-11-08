@@ -34,12 +34,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ML" Version="1.5.2" />
-    <PackageReference Include="Microsoft.ML.TimeSeries" Version="1.5.2" />
+    <PackageReference Include="Microsoft.ML" Version="2.0.0" />
+    <PackageReference Include="Microsoft.ML.TimeSeries" Version="2.0.0" />
     <PackageReference Include="Steema.Numerics" Version="1.2020.11.30" />
     <PackageReference Include="Steema.Numerics.Windows" Version="1.2020.11.30" />
     <PackageReference Include="Steema.Numerics.Windows.TeeChart" Version="1.2020.11.30" />
-    <PackageReference Include="Steema.TeeChart.NETCore.WinForm" Version="4.2020.11.25" />
+    <PackageReference Include="Steema.TeeChart.NETCore.WinForm" Version="4.2020.9.16" />
   </ItemGroup>
 
   <ItemGroup>
