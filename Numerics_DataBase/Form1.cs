@@ -129,7 +129,7 @@ namespace Numerics_DataBase
             _chart.AfterDraw += _chart_AfterDraw;
         }
 
-        private void _chart_AfterDraw(object sender, Steema.TeeChart.Drawing.Graphics3D g)
+        private void _chart_AfterDraw(object sender, Steema.TeeChart.Drawing.IGraphics3D g)
         {
            if(_chart.Series.Count == 0)
             {
